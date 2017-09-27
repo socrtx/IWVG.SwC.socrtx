@@ -21,6 +21,11 @@ public class UserTest {
         assertEquals("Blanco", user.getFamilyName());
     }
     
+    @Test
+    public void testFullname() {
+        assertEquals("Carlos Blanco", user.fullName());
+    }
+   
 
     
 
