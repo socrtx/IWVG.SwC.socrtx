@@ -138,4 +138,43 @@
 			</plugin>
 		</plugins>
 	</build>
+	   <developers>
+        <developer>
+            <name>Carlos Blanco</name>
+            <id>CBV</id>
+            <email>socrtx@gmail.com</email>
+            <organization>MIW UPM</organization>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Adrian Rodriguez Caballero</name>
+            <id>ARC</id>
+            <email>a.rodriguezc@gmail.com</email>
+            <organization>MIW UPM</organization>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Diana Armijo</name>
+            <id>DA</id>
+            <email>d.armijo@gmail.com</email>
+            <organization>MIW UPM</organization>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer> 
+        <developer>
+            <name>Guillermo Sanz</name>
+            <id>GS</id>
+            <email>g.sanz@gmail.com</email>
+            <organization>MIW UPM</organization>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>                
+    </developers>
 </project>
