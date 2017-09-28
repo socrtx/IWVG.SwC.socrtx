@@ -31,5 +31,20 @@ public class UserTest {
         assertEquals("C.", user.initials());
     }
     
+    @Test
+    public void testNameUpCase() {
+        assertEquals("CARLOS", user.nameUpCase());
+    }
+
+    @Test
+    public void testFamilyNameUpCase() {
+        assertEquals("BLANCO", user.familyNameUpCase());
+    }
+    
+    @Test
+    public void testFullNameUpCase() {
+        assertEquals("CARLOS BLANCO", user.fullNameUpCase());
+    }
+    
 
 }
