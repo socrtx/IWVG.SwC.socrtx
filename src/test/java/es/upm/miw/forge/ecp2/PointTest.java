@@ -45,7 +45,7 @@ public class PointTest {
         this.pt.translateOrigin(new Point(1, 1 ,1));
         assertEquals(1, pt.getX());
         assertEquals(2, pt.getY());
-        assertEquals(3, pt.getY());
+        assertEquals(3, pt.getZ());
     }
 
     @Test
