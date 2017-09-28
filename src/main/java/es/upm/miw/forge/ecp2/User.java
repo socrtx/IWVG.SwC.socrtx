@@ -37,4 +37,16 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
+    
+    public String nameUpCase() {
+        return this.getName().toUpperCase();
+    }
+
+    public String familyNameUpCase() {
+        return this.getFamilyName().toUpperCase();
+    }
+
+    public String fullNameUpCase() {
+        return this.fullName().toUpperCase();
+    }
 }
