@@ -60,4 +60,7 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public boolean isPropia() {
+        return this.numerator < this.denominator;
+    }
 }
