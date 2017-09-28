@@ -22,4 +22,8 @@ public class FractionTest {
     public void testisPropia() {
         assertEquals(true, fraction.isPropia());
     }
+    @Test
+    public void testisImpropia() {
+        assertEquals(false, fraction.isImpropia());
+    }
 }
